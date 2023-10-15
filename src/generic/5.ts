@@ -8,8 +8,8 @@ interface KeyValuePair<T, V> {
   value: V;
 }
 
-let a: KeyValuePair<number, string> = {
-  key: 2,
+let a: KeyValuePair<string, string> = {
+  key: "2",
   value: "4",
 };
 
